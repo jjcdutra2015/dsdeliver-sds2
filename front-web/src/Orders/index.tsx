@@ -22,7 +22,7 @@ function Orders() {
         fetchProducts()
             .then(response => setProduct(response.data))
             .catch(() => {
-                toast.warning('Erro ao enviar pedido');
+                toast.warning('Erro ao listar pedidos');
             })
     }, []);
 
